@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="estilos.css" />
+
+    <title>Portafolio Personal</title>
+  </head>
+  <body>
+    <nav id="navbar">
+      <ul>
+        <li>
+          <a class="nav-link" href="#welcome-section"> ¡Hola! </a>
+        </li>
+        <li>
+          <a class="nav-link" href="#projects"> Proyectos </a>
+        </li>
+        <li>
+          <a class="nav-link" href="#hola"> Contacto </a>
+        </li>
+      </ul>
+    </nav>
+
+    <section id="welcome-section">
+      <h1>Hola, me llamo Yuleica Sojo</h1>
+      <h1>Desarrollador Web</h1>
+      <h1>Te doy la bienvenida a</h1>
+      <h1>mi Web Personal</h1>
+    </section>
+    <section id="projects">
+      <h1>¿Te muestro algunos de mis proyectos?</h1>
+      <div class="card">
+        <img
+          class="imagen-proyecto"
+          alt="ejemplo de formulario"
+          loading="lazy"
+          src="./imagenes/formulario.png"
+        />
+        <p class="project-tile">Modelo Página Formulario</p>
+        <a
+          class="link-project"
+          href="#"
+          target="_blank"
+          referrerpolicy="no-referrer"
+          >Ver</a
+        >
+      </div>
+      <div class="card">
+        <img
+          class="imagen-proyecto"
+          alt="ejemplo de formulario"
+          loading="lazy"
+          src="./imagenes/pagina-tributo.png"
+        />
+        <p class="project-tile">Modelo Página Biográfica</p>
+        <a
+          class="link-project"
+          href="#"
+          target="_blank"
+          referrerpolicy="no-referrer"
+          >Ver</a
+        >
+      </div>
+      <div class="card">
+        <img
+          class="imagen-proyecto"
+          alt="ejemplo de formulario"
+          loading="lazy"
+          src="./imagenes/landing-producto.png"
+        />
+        <p class="project-tile">Modelo de Landing Page para productos</p>
+        <a
+          class="link-project"
+          href="#"
+          target="_blank"
+          referrerpolicy="no-referrer"
+          >Ver</a
+        >
+      </div>
+      <div class="card">
+        <img
+          class="imagen-proyecto"
+          alt="ejemplo de página técnica"
+          loading="lazy"
+          src="./imagenes/hoja-tecnica.png"
+        />
+        <p class="project-tile">Modelo de Página Técnica</p>
+        <a
+          class="link-project"
+          href="#"
+          target="_blank"
+          referrerpolicy="no-referrer"
+          >Ver</a
+        >
+      </div>
+    </section>
+    <section id="hola">
+      <div>
+        <h1>Conversemos, ¿nos tomamos un café?</h1>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+          <input
+            id="email"
+            type="email"
+            name="email"
+            placeholder="Deja aquí tu email"
+            required
+            class="input-form"
+          />
+          <input id="submit" type="submit" value="Enviar" class="btn" />
+        </form>
+      </div>
+      <section class="iconos">
+        <div class="card2">
+          <img
+            onmouseout="this.src='./imagenes/github.png'; "
+            onmouseover="this.src='./imagenes/github-sin-fondo.png';"
+            src="./imagenes/github.png"
+            alt="github"
+            width="80"
+            height="80"
+          />
+        </div>
+        <div class="card2">
+          <img
+            onmouseout="this.src='./imagenes/instagram.png'; "
+            onmouseover="this.src='./imagenes/instagram-sin-fondo.png';"
+            src="./imagenes/instagram.png"
+            alt="instagram"
+            width="80"
+            height="80"
+          />
+        </div>
+        <div class="card2">
+          <img
+            onmouseout="this.src='./imagenes/linkedin.png'; "
+            onmouseover="this.src='./imagenes/linkedin-sin-fondo.png';"
+            src="./imagenes/linkedin.png"
+            alt="linkedin"
+            width="80"
+            height="80"
+          />
+        </div>
+      </section>
+    </section>
+  </body>
+</html>
