@@ -10,9 +10,9 @@ html {
 
 body {
   font-family: "Gill Sans", sans-serif;
-  width: 100%;
+  width: 100vw;
   height: 100vh;
-  margin: 0px;
+  margin: auto;
 }
 
 a {
@@ -94,7 +94,7 @@ ul {
   width: 100%;
   bottom: 10px;
   height: auto;
-  background-color: darkblue;
+  background-color: rgb(156, 26, 26);
 }
 
 #welcome-section,
@@ -107,9 +107,13 @@ ul {
 
 #welcome-section {
   color: antiquewhite;
-  background-color: rgb(121, 31, 31);
-  height: 100vh;
+  background-color: darkblue;
+  height: 40vw;
   width: 100vw;
+}
+
+#welcome-section > h1 {
+  text-align: center;
 }
 
 #hola {
@@ -175,19 +179,12 @@ ul {
 }
 
 @media (max-width: 600px) {
-  body {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100vw;
-  }
-
   h1 {
     font-size: 1.5rem;
     width: 100vw;
   }
 
+  h1,
   li {
     margin-left: auto;
     margin-right: auto;
@@ -216,9 +213,14 @@ ul {
     height: auto;
   }
 
+  #welcome-section {
+    height: 70vw;
+  }
+
   #projects,
   #hola {
     width: 150%;
+    height: auto;
   }
 
   #projects {
@@ -229,7 +231,6 @@ ul {
   }
 
   #hola > div {
-    flex-direction: column;
     background-color: black;
   }
 
