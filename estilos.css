@@ -179,6 +179,10 @@ ul {
 }
 
 @media (max-width: 600px) {
+  #navbar {
+    font-size: 1.5rem;
+  }
+
   h1 {
     font-size: 1.5rem;
     width: 100vw;
@@ -208,8 +212,9 @@ ul {
     flex-direction: column;
   }
 
+  #projects,
   #navbar {
-    width: 100%;
+    width: 100vw;
     height: auto;
   }
 
@@ -217,29 +222,22 @@ ul {
     height: 70vw;
   }
 
-  #projects,
   #hola {
     width: 150%;
     height: auto;
   }
 
   #projects {
-    padding: 20px;
-    align-items: center;
-    justify-content: center;
-    width: 150%;
+    margin: 0;
+  }
+
+  .imagen-proyecto {
+    width: 90vw;
+    height: 50vh;
   }
 
   #hola > div {
     background-color: black;
-  }
-
-  .imagen-proyecto {
-    width: 100vw;
-    height: auto;
-    padding: 20px;
-    justify-content: center;
-    align-items: center;
   }
 
   .card,
