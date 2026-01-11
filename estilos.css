@@ -106,7 +106,7 @@ ul {
 }
 
 #welcome-section {
-  color: antiquewhite;
+  color: whitesmoke;
   background-color: darkblue;
   height: 40vw;
   width: 100vw;
@@ -165,7 +165,7 @@ ul {
 }
 
 .project-tile {
-  color: antiquewhite;
+  color: whitesmoke;
 }
 
 .input-form {
@@ -216,29 +216,30 @@ ul {
   #hola,
   #navbar {
     width: 100vw;
-    height: auto;
   }
 
   #welcome-section {
     height: 70vw;
   }
 
-  /*#hola {
-    width: 150%;
+  #projects,
+  #hola #navbar {
     height: auto;
-  }*/
+  }
 
   #projects {
     margin: 0;
+    padding: auto;
   }
 
   .imagen-proyecto {
     width: 90vw;
-    height: 50vh;
+    height: 40vh;
   }
 
   #hola > div {
     background-color: black;
+    padding: auto;
   }
 
   .card,
@@ -256,6 +257,11 @@ ul {
   .input-form,
   .btn {
     flex-direction: column;
+  }
+
+  #card2 > img {
+    width: 60px;
+    height: 60px;
   }
 
   .input-form,
