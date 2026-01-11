@@ -213,6 +213,7 @@ ul {
   }
 
   #projects,
+  #hola,
   #navbar {
     width: 100vw;
     height: auto;
@@ -222,10 +223,10 @@ ul {
     height: 70vw;
   }
 
-  #hola {
+  /*#hola {
     width: 150%;
     height: auto;
-  }
+  }*/
 
   #projects {
     margin: 0;
