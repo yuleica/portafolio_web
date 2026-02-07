@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -15,6 +15,9 @@
           <a class="nav-link" href="#welcome-section"> ¡Hola! </a>
         </li>
         <li>
+          <a class="nav-link" href="#about-me-section"> ¿Te Ayudo? </a>
+        </li>
+        <li>
           <a class="nav-link" href="#projects"> Proyectos </a>
         </li>
         <li>
@@ -25,9 +28,31 @@
 
     <section id="welcome-section">
       <h1>Hola, me llamo Yuleica Sojo</h1>
-      <h1>Desarrollador Web</h1>
       <h1>Te doy la bienvenida a</h1>
       <h1>mi Web Personal</h1>
+      <br>
+      <br>
+      <h2>Diseño y desarrollo sitios web modernos, rápidos y</h2>
+      <h2>adaptados a cualquier dispositivo</h2>
+      <br>
+      <h2>Ayudo a negocios y profesionales a tener una presencia</h2>
+      <h2>web clara, funcional y profesional que genere confianza.</h2>
+    </section>
+    <section id="about-me-section">
+      <h1>¿Cómo te Ayudo?</h1>
+      <br>
+      <br>
+      <h2>Trabajo con personas y pequeños negocios que</h2>
+      <h2>quieren una web profesional, clara y fácil de usar.</h2>
+      <br>
+      <h2>
+        Me enfoco en crear sitios responsive que se vean bien en</h2> 
+      <h2>móvil, tablet y desktop.</h2>  
+      <br>
+      <h2>
+        Mi objetivo es que tu web comunique confianza </h2>
+      <h2> y ayude a convertir visitas en contactos.</h2> 
+      </h2>
     </section>
     <section id="projects">
       <h1>¿Te muestro algunos de mis proyectos?</h1>
@@ -44,7 +69,7 @@
           href="#"
           target="_blank"
           referrerpolicy="no-referrer"
-          >Ver</a
+          >Quiero uno Así</a
         >
       </div>
       <div class="card">
@@ -60,7 +85,7 @@
           href="#"
           target="_blank"
           referrerpolicy="no-referrer"
-          >Ver</a
+          >Quiero un Presupuesto</a
         >
       </div>
       <div class="card">
@@ -76,7 +101,7 @@
           href="#"
           target="_blank"
           referrerpolicy="no-referrer"
-          >Ver</a
+          >Solicitar Presupuesto</a
         >
       </div>
       <div class="card">
@@ -92,41 +117,68 @@
           href="#"
           target="_blank"
           referrerpolicy="no-referrer"
-          >Ver</a
+          >Quiero un Presupuesto</a
         >
       </div>
     </section>
     <section id="hola">
       <div>
-        <h1>Conversemos, ¿nos tomamos un café?</h1>
-        <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <h1>¿Te gustaron mis proyectos? ¿Quieres algo así?, Hablemos!!!</h1>
+        <form id="contact-form">
           <input
-            id="email"
-            type="email"
-            name="email"
-            placeholder="Deja aquí tu email"
-            required
+           type="email"
+           name="email"
+           placeholder="Deja aquí tu email"
+           required
+           class="input-form"
+          />
+
+          <input
+            type="text"
+            name="name"
+            placeholder="Tu nombre (opcional)"
             class="input-form"
           />
-          <input id="submit" type="submit" value="Enviar" class="btn" />
+
+          <textarea
+            name="message"
+            placeholder="Cuéntame tu idea"
+            class="input-form"
+          ></textarea>
+
+          <input
+            type="submit"
+            value="Enviar"
+            class="btn"
+          />
+
         </form>
       </div>
       <section class="iconos">
         <div class="card2">
           <img
-            onmouseout="this.src='./imagenes/github.png'; "
-            onmouseover="this.src='./imagenes/github-sin-fondo.png';"
+            onmouseout="this.src = './imagenes/github.png'"
+            onmouseover="this.src = './imagenes/github-sin-fondo.png'"
             src="./imagenes/github.png"
             alt="github"
             width="80"
             height="80"
           />
         </div>
-
         <div class="card2">
           <img
-            onmouseout="this.src='./imagenes/linkedin.png'; "
-            onmouseover="this.src='./imagenes/linkedin-sin-fondo.png';"
+            onmouseout="this.src = './imagenes/correo-electronico.png'"
+            onmouseover="this.src = './imagenes/email.png'"
+            src="./imagenes/correo-electronico.png"
+            alt="Correo Electrónico"
+            width="70"
+            height="70"
+          />
+        </div>
+        <div class="card2">
+          <img
+            onmouseout="this.src = './imagenes/linkedin.png'"
+            onmouseover="this.src = './imagenes/linkedin-sin-fondo.png'"
             src="./imagenes/linkedin.png"
             alt="linkedin"
             width="70"

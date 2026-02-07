@@ -54,7 +54,7 @@ p {
   text-align: center;
   font-size: 1.5rem;
   padding: 20px;
-  width: 5%;
+  width: 30%;
   background-color: rgb(218, 40, 40);
   color: whitesmoke;
   border: none;
@@ -66,7 +66,8 @@ p {
   margin-top: 30px;
 }
 
-.btn:hover {
+.btn:hover,
+.input-form:hover {
   color: brown;
   background-color: beige;
 }
@@ -98,6 +99,7 @@ ul {
 }
 
 #welcome-section,
+#about-me-section,
 #hola {
   display: flex;
   flex-direction: column;
@@ -106,14 +108,22 @@ ul {
 }
 
 #welcome-section {
-  color: whitesmoke;
   background-color: darkblue;
   height: 40vw;
   width: 100vw;
 }
 
-#welcome-section > h1 {
+#about-me-section {
+  background-color: rgb(230, 113, 11);
+  height: 40vw;
+  width: 100vw;
+}
+
+#welcome-section,
+#about-me-section > h1,
+h2 {
   text-align: center;
+  color: whitesmoke;
 }
 
 #hola {
@@ -170,7 +180,7 @@ ul {
 
 .input-form {
   font-size: 1.5rem;
-  padding: 10px;
+  padding: 20px;
 }
 
 #form {
@@ -184,11 +194,20 @@ ul {
   }
 
   h1 {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
+  }
+
+  h2 {
+    font-size: 1rem;
+  }
+
+  h1,
+  h2 {
     width: 100vw;
   }
 
   h1,
+  h2,
   li {
     margin-left: auto;
     margin-right: auto;
@@ -218,12 +237,17 @@ ul {
     width: 100vw;
   }
 
-  #welcome-section {
-    height: 70vw;
+  #welcome-section,
+  #about-me-section {
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
 
   #projects,
-  #hola #navbar {
+  #welcome-section,
+  #about-me-section,
+  #hola,
+  #navbar {
     height: auto;
   }
 
@@ -242,6 +266,7 @@ ul {
     padding: auto;
   }
 
+  .contact-form,
   .card,
   .card2 {
     align-items: center;
@@ -266,22 +291,28 @@ ul {
 
   .input-form,
   .btn {
-    font-size: 1rem;
-    padding: 10px;
+    margin: 10px;
+    padding: 25px;
   }
 
-  .project-tile {
+  .project-tile,
+  .link-project,
+  .input-form,
+  .btn {
     font-size: 1rem;
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 10px;
     width: 50%;
   }
 
+  .project-tile {
+    padding: 10px;
+  }
+
   .link-project {
+    display: inline-flex;
     font-size: 1rem;
     padding: 20px;
-    width: 15%;
   }
 }
