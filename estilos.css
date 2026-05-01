@@ -184,11 +184,14 @@ h2 {
 }
 
 #form {
-  align-items: center;
   justify-content: center;
 }
 
-@media (max-width: 600px) {
+
+
+@media (min-width: 768px) and (max-width: 1023px) { /* tablet horizontal */ }
+
+@media (max-width: 600px ) or ((min-width: 600px) and (max-width: 767px)) {
   #navbar {
     font-size: 1.5rem;
   }
@@ -278,7 +281,6 @@ h2 {
 
   #hola > div,
   #hola > h1,
-  .iconos,
   .input-form,
   .btn {
     flex-direction: column;
@@ -287,6 +289,11 @@ h2 {
   #card2 > img {
     width: 60px;
     height: 60px;
+  }
+
+  #card2 > a {
+    flex-direction: column;
+    display: inline-flex;
   }
 
   .input-form,
